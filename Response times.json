@@ -390,7 +390,7 @@
       "targets": [
         {
           "exemplar": true,
-          "expr": "com_atlassian_refapp_jira_99thPercentile{category00=\"web\", category01=\"resource\", name=\"condition\"}",
+          "expr": "com_atlassian_jira_metrics_99thPercentile{category00=\"web\", category01=\"resource\", name=\"condition\"}",
           "interval": "",
           "legendFormat": "",
           "refId": "A"
@@ -602,5 +602,5 @@
   "timezone": "",
   "title": "Response times",
   "uid": "dA8tm85nz",
-  "version": 13
+  "version": 15
 }

@@ -191,7 +191,7 @@
       "targets": [
         {
           "exemplar": true,
-          "expr": "sum without (instance, entityType) (sum without (name) (com_atlassian_jira_metrics_Mean{category00=\"db\", category01=\"ao\", category02=\"entityManager\"}) * sum without (name) (com_atlassian_refapp_metrics_Count{category00=\"db\", category01=\"ao\", category02=\"entityManager\"}))",
+          "expr": "sum without (instance, entityType) (sum without (name) (com_atlassian_jira_metrics_Mean{category00=\"db\", category01=\"ao\", category02=\"entityManager\"}) * sum without (name) (com_atlassian_jira_metrics_Count{category00=\"db\", category01=\"ao\", category02=\"entityManager\"}))",
           "interval": "",
           "legendFormat": "",
           "refId": "A"
@@ -522,5 +522,5 @@
   "timezone": "",
   "title": "Database load",
   "uid": "qqVaZU5nz",
-  "version": 22
+  "version": 23
 }
