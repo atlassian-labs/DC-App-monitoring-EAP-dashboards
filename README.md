@@ -1,4 +1,6 @@
 # DC App Monitoring Dashboards
+[![Atlassian license](https://img.shields.io/badge/license-Apache%202.0-blue.svg?style=flat-square)](LICENSE) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md)
+
 ## Overview
 App monitoring can give you a deeper insight into what apps are doing in your instance. This can be useful when troubleshooting issues with a specific app, or to help you determine whether an app may have contributed to a drop in overall performance or stability.
 
@@ -14,3 +16,26 @@ You'll also need a running instance of Prometheus and Grafana. Details for setup
 * `Cluster locks` - This identifies which apps are holding and waiting for specific locks.
 * `Database load` - This provides insights into how apps are querying the database through the Atlassian AO and SAL frameworks.
 * `Response times` - This shows how long apps are taking to serve requests. It includes aspects such as condition evaluation (e.g. permissions), web panel rendering and http rest request times.
+
+> Please remove this quote block and replace the others with meaningful content. If you're looking at this on Bitbucket, be assured that it looks great on GitHub. 
+
+## Contributions
+
+Contributions to DC App Monitoring Dashboards are welcome! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for details. 
+
+## License
+
+Copyright (c) 2021 - 2022 Atlassian and others.
+Apache 2.0 licensed, see [LICENSE](LICENSE) file.
+
+<br/> 
+
+> Pick one of the following:
+
+[![With â¤ï¸ from Atlassian](https://raw.githubusercontent.com/atlassian-internal/oss-assets/master/banner-cheers.png)](https://www.atlassian.com)
+
+[![With â¤ï¸ from Atlassian](https://raw.githubusercontent.com/atlassian-internal/oss-assets/master/banner-with-thanks.png)](https://www.atlassian.com)
+
+[![With â¤ï¸ from Atlassian](https://raw.githubusercontent.com/atlassian-internal/oss-assets/master/banner-with-thanks-light.png)](https://www.atlassian.com)
+
+[![With â¤ï¸ from Atlassian](https://raw.githubusercontent.com/atlassian-internal/oss-assets/master/banner-cheers-light.png)](https://www.atlassian.com)
